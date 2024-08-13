@@ -30,7 +30,7 @@ func (wg *WorkerGroup) ActiveWorkers() int32 {
 }
 
 func (wg *WorkerGroup) FinishAllWorkers() {
-	ctr := wg.counter
+	ctr := wg.ActiveWorkers()
 	for i := 0; i < int(ctr); i++ {
 		wg.Done()
 	}
