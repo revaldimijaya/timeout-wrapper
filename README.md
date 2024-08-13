@@ -1,6 +1,6 @@
 # Timeout Wrapper
 
-```go get github.com/revaldimijaya/timeout-wrapper```
+```go get github.com/revaldimijaya/timeout-wrapper@latest```
 
 
 # Notes
